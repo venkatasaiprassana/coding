@@ -10,20 +10,51 @@
 <link rel="stylesheet" href="student.css">
 <body>
     <h1 align="center" style="color:black;">Student Register Form</h1>
-   
-    <div id="dd">
-        <label for="f"><b>First Name :</b> <input type="text" name="name" placeholder="Enter your First Name" id="f"></label> <br> <br><br>
-        <label for="n"><b>Last Name  :</b> <input type="text" name="name" placeholder="Enter your name" id="n"></label> <br> <br><br>
-        <label for="em"><b>Email Addr:</b> <input type="email" name="email" placeholder="Enter your email" id="em"></label> <br><br><br>
-        <label for="no"><b>Phone No :</b> <input type="number" name="no" placeholder="Enter Phone no" id="no"></label> <br><br><br>
-        <label for="pw"><b>Password :</b> <input type="password" name="pw" placeholder="Enter Password" id="pw"></label> <br><br><br>
-        <label for="st"><b>State Name:</b> <input type="text" name="tx" placeholder="Enter your State" id="st"></label> <br><br><br>
-        <label for="c"><b>City Name :</b> <input type="text" name="c" placeholder="Enter your city" id="c"></label> <br><br><br>
-        <label for="ad"><b>Address :</b> <input type="text" name="dw" placeholder="Enter your Address" id="ad"></label> <br><br><br>
-        <label for="da"><b>Enter Date of birth:</b> <input type="date" name="pw" placeholder="Enter date of birth" id="da"></label> <br><br><br>
-        <input type="button" value="submit">&nbsp;&nbsp;
-      <input type="reset" value="reset">
+    <hr>
+   <div id="dd">
+<div>
+     <label for="f"><b>First Name :</b> <span>*</span><input type="text" name="name" placeholder="Enter your First Name" id="f" required maxlength="15"></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  
+    
+        <label for="n"><b>Last Name  :</b> <input type="text" name="name" placeholder="Enter your name" id="n" required></label>
+</div> <br> <br><br>
+<div>
+    <label for="no"><b>Mobile No :</b> <input type="number" name="no" placeholder="Enter Phone no" id="no" required maxlength="10"></label>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="da"><b>Date of birth:</b> <input type="date" name="pw" placeholder="Enter date of birth" id="da" required></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div> <br> <br> <br>
+    <div>
+            <label for="em"><b>Email addr:</b> <input type="email" name="em" placeholder="Enter your email" id="em" required></label> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="pw"><b>Password :</b> <input type="password" name="pw" placeholder="Enter Password" id="pw" required max="6"></label> 
+        </div> <br> <br> <br>
+        <div>
+            <label for="st"><b>State Name:</b> <input type="state" name="tx" placeholder="Enter your State" id="st"></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="c"><b>City Name :</b> <input type="text" name="c" placeholder="Enter your city" id="c"></label>
+        </div> <br> <br> <br>
+        <div>
+            <label for="ad"><b>Address :</b> <input type="text" name="dw" placeholder="Enter your Address" id="ad"></label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label><b>choose Gender: </b></label> <input type="radio" name="Gender" id="fe" value="Female"><label for="fe">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="radio" name="Gender" id="ma" value="Male"><label for="ma">Male</label>
+        </div>  <br> <br> <br>
+        <div>
+            <label><b>Languages Known:</b></label>
+            <input type="checkbox" name="Languages" id="en" value="English">
+            <label for="en">English</label>
+            <input type="checkbox" name="Languages" id="te" value="Telugu">
+            <label for="te">Telugu</label>
+            <input type="checkbox" name="Languages" id="ta" value="Tamil">
+            <label for="ta">Tamil</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><b>Choose Course:</b></label>
+            <select name="" id="">
+                <option value="">Courses</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div> <br> <br> <br>
+             <div>
+        <input type="button" value="submit" style="color:white; background-color: green;">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+      <input type="reset" value="reset" style="background-color: crimson; color: aliceblue;">
 
+    </div>
     </div>
 
     

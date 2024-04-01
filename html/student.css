@@ -1,19 +1,22 @@
-body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQHJ9ljhAvOsffCTlu5icXomqUXhRrpAkPlCynoYOqDgYAT8rwB2zgCHa0Dbx7ZYZAsf4&usqp=CAU);
+/*body{
+    background-image: url();
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;/*
+
+}*/
+body{
+     background-image: url(https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D);
+     background-repeat: no-repeat;
+     background-size: cover;
+    color:darkslategrey; 
+    text-align: center;
 
 }
 #dd{
-    background-color: rgba(198, 198, 237, 0.621);
-    padding:50px;
-    height: 500px;
-     width: 350px;
-    color:darkslategrey; 
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.066);
+    padding: 50px;
+    color: rgb(0, 5, 14);
+    width: 700px;
     margin: auto;
-    
-    color:rgb(1, 15, 27);
-    align-items: center;
 }
 
