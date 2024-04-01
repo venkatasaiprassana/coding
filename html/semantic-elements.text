@@ -2,3 +2,12 @@
 significance but some Elements will not create 
 much impact on UI but makes code efficient and 
 search engin organize friendly.
+All semantic elements are block elements.
+ex: header,footer,main,address,sectionn,article etc...
+
+attributes : Every element will have some properties.those are called attributes.
+ex:src,alt for img element, href,target for a element.
+
+every element can contain common attributes like class and id
+element can containn multiple classes or multiple elements contain 
+same classelement must contain only id and it should be unique

@@ -1,0 +1,74 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaELw3Ay196iGIBaEWXc1SBV01Z-YC3VuObTRoOa5fNfVrd9DbkeROA6fnoSRNVn4Cacw&usqp=CAU);    
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSklR81RaTj1uhT8Mwku4A7YGNOPXJxQjpS38TUvqs92e2I4lJSmKdxwsuwh-WREBFIkvM&usqp=CAU);*/
+background-repeat: no-repeat;
+background-size: cover;
+}
+#pre{
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    color:rgb(239, 234, 234);
+    text-align: end;
+
+    
+}
+h1{
+    text-align: center;
+
+}
+#dd{
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 50px;
+    height: 100px;
+    
+    
+
+}
+#dd1{
+    /*padding-left: 500px;
+    width: 50%;
+    height: 10%;
+    align-content: left;*/
+    padding-left: 1000px;
+    width: 100px;
+    height: 50px;
+
+}
+#par{
+    font-size: x-large;
+    font-weight: bolder ;
+    font-style: italic;
+    color: aliceblue;
+    text-align: justify;
+
+}
+#about{
+    color: rgba(243, 169, 213, 0.975);
+ font-size: xx-large;
+}
+#table{
+    color: blue;
+    align-content: center;
+    border-color:darkgreen ;
+    background-color: rgb(246, 252, 188);
+    font-weight: bold;
+    font-size: x-large;
+    margin:auto ;
+}
+#w{
+    padding-left: 50px;
+    width:100px;
+    height:0px ;
+    padding: 50px;
+}
+#par1{
+    font-size: x-large;
+    font-weight: bolder ;
+    font-style: italic;
+    color: aliceblue;
+    text-align:end;
+
+}

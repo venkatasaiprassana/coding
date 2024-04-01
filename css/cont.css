@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-photo/using-computerhand-typing-keyboard-laptop-260nw-1774949384.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dd{
+    background-color: rgba(0, 0, 0, 0.422);
+    padding: 50px;
+    margin: auto;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: rgb(49, 29, 33);
+    font-size: x-large;
+}
+.s{
+    background-color: brown;
+}
+#table{
+    color: rgb(12, 12, 239);
+    border-color:rgb(189, 201, 51) ;
+    background-color:rgb(233, 237, 241);
+    font-weight: bold;
+    font-size:xx-large;
+    margin:auto ;
+}
+#si{
+    background-color:black;
+    color:azure;
+    width: 100px;
+}

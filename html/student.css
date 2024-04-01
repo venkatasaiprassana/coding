@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQHJ9ljhAvOsffCTlu5icXomqUXhRrpAkPlCynoYOqDgYAT8rwB2zgCHa0Dbx7ZYZAsf4&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#dd{
+    background-color: rgba(198, 198, 237, 0.621);
+    padding:50px;
+    height: 500px;
+     width: 350px;
+    color:darkslategrey; 
+    text-align: center;
+    margin: auto;
+    
+    color:rgb(1, 15, 27);
+    align-items: center;
+}
+

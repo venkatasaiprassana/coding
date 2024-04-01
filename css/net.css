@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#HE{
+    color: crimson;
+    font-weight: bolder;
+    font-size: xxlarger;
+}
+h2{
+    color: white;
+}
+#d{
+    background-color: rgba(0, 0, 0, 0.82);
+    padding-bottom: 50px;
+    padding-left: 50px;
+    height: 400px;
+       width: 300px;
+    color:whitesmoke;
+   margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+#em,#ps{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#si{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 20cap;
+}
+#sma{
+    color:rgba(255, 250, 250, 0.582);
+}
+#fo{
+    text-align: center;
+}
