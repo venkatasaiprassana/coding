@@ -3,26 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resturant website</title>
     <link rel="stylesheet" href="menu- bar.css">
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    <main id="dd">
-        <img src="https://t4.ftcdn.net/jpg/01/87/99/49/360_F_187994973_Yw8ZBfe6uN2r8MRTBguNlQWO3jEFD62b.jpg" alt="">
-   
-    <div id="box">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3iLoKkWeYAApn0Y2u2eq_RlqapwnJDdMNAHPMZPk4ZzuTw9f6j9_Ni9gczcVvseK6D8&usqp=CAU" alt="">
-        <p>Breakfast</p>
-    </div>
-    <div id="box1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRySeDsrweHUg_SlTlT0kXDRr_RcP3dYHSBRD5Q-ja_FsiHW7Sw0nQBOJTUfjXLgyVFK60&usqp=CAU" alt="">
-      <p>Lunch</p>
-    </div>
-    <div id="box2">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6HWHW5J_0rpDdAellYaylgwynvJBgqs14gvslzHnuHg&s" alt="">
-          <p>Dessert</p>
-    </div>
-    </main>
-    
-</body>
-</html>
+  <nav>
+    <div class="navigation container">
+        <div class="logo_container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsSgrVxpDceRF1TdvQ7RcN8bE0X6PgwCyH87tqCLkB5A&s" alt="logo"><span class="he" align="center"><h1>Healthy Millits Food Restaurant</h1></span>
+            
+        </div>
+        <div class="bar_icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        </div>
+  </nav>
+  <!--Hero section --->
+  <div class="container">
+    <div class="hero_image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxe1BkQWM24xHstAdgD4BbCrnLHNPiPaON9A&s" alt="hero image">
+         </div> <br>
+         <div class="heo_content">
+            <div class="tag">50% off on All Products</div> <br>
+            <h1>Enjoy Healthy Delicious Food</h1> <br>
+            <p>
+                Here we provide the tasty dishes with millits which gives rich protein to our body. <br>
+                Enjoy the food with healthy recipies in our Restaurant.
+            </p> <br>
+            <button class="explore_btn">Explore Now</button>
+            </div>
+         </div>
+         <section class="features">
+            <div class="feature">
+                <img src="data:image/png;base64,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" alt="">
+                <div class="feature_content">
+                    <h3>Discount Voucher</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8vsMp-dz6zdDFdK3YLtZQVeJ1hPB7h0T4MpndBV4ZYA&s" alt="">
+                <div class="feature_content">
+                    <h3>Fresh Healthy Millits Food</h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWv4i7qWGXfkht6NFRlklu0fBPwTV8ZRAIEfM5ln-1BktOnA0aGYtjM4mUOWl4bYOchM&usqp=CAU" alt="">
+                    <div class="feature_content">
+                        <h3>Fast Home Delivery</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </div>
+                </div>
+                </section>
+                <div class="divider"></div>
+                <div class="menu">
+                    <div class="tag">Our Menu</div>
+                    <h2>Explore Our Menu</h2>
+                    <div class="grid">
+                        <div class="item1">
+                            <img class="grid-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8OrXoLUjq_-YjMtgZ9tzUD6Q3I_cuN4aDg&s" alt="img1">
+                        </div>
+                        <div class="item2">
+                            <img class="grid-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9EagbmWBVgoSR9izQuTFtNpjQo5t2jAqlnA&s" alt="img2">
+                        </div>
+                        <div class="item3">
+                            <img  class="grid-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3C0md8bdhUsOkmaNlE_6yyrL11w0eOu7DSw&s" alt="img3">
+                            </div>
+                            <div class="item4">
+                                <img class="grid-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt_jS_PRn5VUM2guAgxP8tQObgE0gX22KhhwCmX09wYQ&s" alt="img4">
+                            </div>
+                            <div class="item5">
+                                <img class="grid-image"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQBzNELx0SL3xrD3WSIs2FC397v69skbdrZemRHhqjg&s" alt="img5">
+                            </div>
+                            <div class="item6">
+                                <img class="grid-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQAyK62ckRpO7AVAZtkGKyIX8deW_F2UQDu8g-fFTPRQ&s" alt="img6">
+                            </div>
+                            <div class="item7">
+                                <img class="grid-image"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4mZeqpAWLC0uBo20AD-fjeUxzK_4v6cUyBd-AOedd9J6q8sQx1LpJqjJIOK5iOgHhZss&usqp=CAU" alt="img7">
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer_container container">
+                    <div class="footer_logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5apZBCX3zNXLdDp_ebbPlrdKhdXHTehVOMSYlboETLw&s" alt="logo">
+                    </div>
+                    <div class="link_lists">
+                        <h3>Main Links</h3>
+                        <ul>
+                            <li>Order Tracking</li>
+                            <li>New order</li>
+                            <li>Contact us</li>
+                            <li>News & Blogs</li>
+                        </ul>
+                    </div>
+                    <div class="link_lists">
+                        <h3>Support</h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="news_letter">
+                        <h3>Support</h3>
+                        <input type="email" name="" id="" placeholder="Enter Your Email..">
+                        <h3>Follow Us</h3>
+                        <div class="icon_container">
+                            <div class="icon">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>  
+                            </div>
+                            <div class="icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+         </body>
+  </html>
