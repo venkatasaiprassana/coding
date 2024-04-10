@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/967/447/615/adventure-awaits-wallpaper-preview.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://i.pinimg.com/736x/e1/4d/2b/e14d2b7129ace3558345be3aec3b990f.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(https://w0.peakpx.com/wallpaper/599/684/HD-wallpaper-camping-under-a-starry-night-sky-stars-nights-sky-camping-tents-nature.jpg);
+  min-height: 400px;
+}
+.pimg4 {
+background-image: url(https://static.vecteezy.com/system/resources/previews/029/501/986/non_2x/ai-generated-ai-generative-time-watch-hourglass-sandglass-outdoor-nature-adventure-vacation-background-landscape-graphic-art-photo.jpg);
+min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+
+}
+.section-light {
+  background-color: #455c89;
+  color: white;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
