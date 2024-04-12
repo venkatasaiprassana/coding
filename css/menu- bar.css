@@ -8,8 +8,12 @@ url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400
   html,
   body {
     line-height: 1.4;
-    font-weight: 500;
+    font-weight: 900;
     font-family: "Roboto", sans-serif;
+  }
+  .logo_container img{
+    border-radius: 50px;
+    width: 100px;
   }
   button {
     padding: 10px 15px;
@@ -26,10 +30,11 @@ url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400
     box-shadow: 5px 5px 5px rgba(30, 6, 59, 0.05);
     position: sticky;
     top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     background: white;
-    padding: 5px;
+    padding: 10px;
     z-index: 50;
+  
   }
   
 .he{
@@ -39,7 +44,7 @@ url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400
     align-items: center;
     display: inline-flex;
 margin:auto;
-color: brown;
+color: rgb(105, 106, 17);
 }
 .navigation {
     display: flex;
