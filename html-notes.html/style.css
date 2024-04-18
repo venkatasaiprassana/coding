@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    background-color: rgba(237, 245, 245, 0);
+    padding-left: 10px;
+    height: 50vh;
+   
+    
+    
+}
+#maincon
+{
+    padding-top:5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+ 
+    
+}
+header{
+    background-color: rgb(208, 135, 101);
+    height: 10vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    
+}
+#main
+{
+    height: 100%;
+    width: 25vw;
+    background-color:rgb(222, 232, 228);
+    border-top-right-radius: 2px ;
+    position:fixed;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+   
+}
+#side{
+    
+
+    margin: auto;
+    margin-left:32%;
+
+   
+   
+        
+ 
+    
+}
+h1{
+    
+padding-left: 5px;
+padding: 20px;
+
+
+}
+#side div{
+   
+    height:100%;
+    width: 66vw;
+    border: 1px solid black;
+    background-color: rgba(230, 242, 245, 0.018);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  padding-top: 50px;
+  margin-top: 2%;
+display: flex;
+  flex-direction: column;
+       
+    
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 70, 5);
+    font-size: large;
+    
+}
+h2{
+    color:brown;
+}
+h3{
+    color:rgb(92, 17, 92);
+}
+p{
+    line-height:2pc;
+    font-size:large;
+    text-wrap:wrap;
+    font-style:inherit;
+    font: bold;
+}
+pre{
+    font-size:large;
+    font-weight: 400;
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main id="maincon">
+       
+    <div id="main">
+        <h1 style="position: fixed; ">HTML complete notes</h1> <br> <br>
+        <h1>Content</h1> <br>
+        <p><a href="#intro">HTML Introduction</a></p>
+        <p><a href="#lay">HTML Layout</a></p>
+        <p><a href="#sem">Semantic Tags</a></p>
+        <p><a href="#list">Lists in HTML</a></p>
+        <p><a href="#table">Tables in HTML</a></p>
+        <p><a href="#blin">Block vs. Inline Elements</a></p>
+        <p><a href="#ca">Class and ID Attributes</a></p>
+        <p><a href="#forms">HTML Forms</a></p>
+        <p><a href="#mis">Miscellaneous HTML Tags</a></p>
+        <p><a href="#av">Audio and Video Support</a></p>
+        <p><a href="#can">Canvas</a></p>
+        <p><a href="#res">Responsive Web Design</a></p>
+    </div>
+    <div id="side">
+        <div>
+            <h2 id="intro">Introduction about html</h2> <br>
+            <h3>HTML (Hypertext Markup Language):</h3>  <br>
+                <p>HTML stands for "Hypertext Markup Language."</p>  <br>
+               <p> It is the standard markup language used to create and structure content on the World Wide Web.</p> <br>
+                <h3>Hypertext and Hyperlinks:</h3> <br>
+                <p>HTML is designed for creating hypertext documents, which contain text that can be linked to other documents
+                    or resources.  <br>
+                    Hyperlinks are clickable elements that allow users to navigate between web pages.</p> 
+                    <h3>Structure and Semantics:</h3> <br>
+                    <p>HTML provides a way to structure content into headings, paragraphs, lists, and more.
+                        It uses tags, enclosed in angle brackets, to define the structure and semantics of the content.</p>
+                        <p>Web browsers (e.g., Chrome, Firefox, Safari) render HTML documents and display them as web pages. <br>
+                            HTML History: <br>
+                            HTML 1.0 (1993): <br>
+                            The first version of HTML was released by Tim Berners-Lee in 1993. <br>
+                            It included basic elements like headings, paragraphs, links, and lists. <br>
+                            HTML 2.0 (1995): <br>
+                            HTML 2.0 introduced tables, image support, and forms. <br>
+                            HTML 3.2 (1997): <br>
+                            HTML 3.2 added support for frames, which allowed multiple documents to be displayed in a single window. <br>
+                            HTML 4.0 (1997): <br>
+                            HTML 4.0 introduced CSS (Cascading Style Sheets) for better control over the presentation of web pages. <br>
+                            It also added support for scripting with JavaScript. <br>
+                            XHTML (2000): <br>
+                            XHTML (Extensible Hypertext Markup Language) was an XML-based version of HTML. <br>
+                            It aimed to make HTML more compatible with XML and introduced stricter syntax rules <br>
+                            HTML5 (2014): <br>
+                            HTML5 is the latest version of HTML and introduced many new elements and features. <br>
+                            It includes multimedia support, semantic elements, canvas for graphics, and enhanced form controls.</p>
+        </div>
+        <div>
+            <h2 id="lay">HTML Layout:</h2> <br>
+            <h3>Document Structure:</h3>
+<p>HTML documents typically have a standard structure, including <!DOCTYPE>, <html>, <head>, and <body>
+    elements. <br>
+    The <!DOCTYPE> declaration specifies the document type and version. <br>
+    The <html> element is the root element of the document. <br>
+    The <head> section contains metadata, while the <body> section contains visible content. <br>
+    HTML Headings and Formatting Tags <br>
+    HTML Headings  (h1 to h6) <br>
+   <p> HTML headings are used to define the structure and hierarchy of a document. <br>
+    There are six levels of headings in HTML, from h1 (highest) to h6 (lowest).</p>
+    <h3>Example:</h3> <br>
+    <pre>
+    < h1>This is Heading 1< /h1> <br>
+    < h2>This is Heading 2< /h2> <br>
+    < h3>This is Heading 3< /h3> <br>
+    < h4>This is Heading 4< /h4> <br>
+    < h5>This is Heading 5< /h5> <br>
+    < h6>This is Heading 6< /h6> <br>
+    </pre>
+    <p>Use headings to provide a clear and logical structure to your content. <br>
+        Search engines use headings to understand the hierarchy of your content and improve SEO.</p> <br>
+        <h3>HTML Paragraphs : (p)</h3> <br>
+        <p>The (< p>) tag is used to define paragraphs of text.  <br>
+            Paragraphs are block-level elements and are typically separated by vertical spacing.</p>
+            <h4>Examples:</h4>
+            <p>< p>This is a paragraph of text. It can contain multiple sentences and line breaks.< /p></p> <br>
+            <h3>HTML Line Breaks(< br>)</h3>
+            <p>The < br> tag is used to insert line break with text. <br>
+                It is an inline element and does not require a closing tag. <br>
+                Example:< p>This is a line of text.< br>Here is a new line of text.</p>   <br>
+               
+                </div>
+
+        <div>
+            <h3>HTML Horizontal Rule (< hr>)</h3> <br>
+            <p>The < hr> tag is used to insert a horizontal line (horizontal rule) to separate content. <br>
+                It is a self-closing tag and is typically used to divide sections of content. <br>
+               <h4> Example: </h4>< p>This is some content.< /p> <br>
+                < hr> <br>
+                < p>This is more content< /p>        <br><br> <br>   
+            <h3>HTML Emphasis (< em>) and Strong (< strong>)</h3> <br>
+            <p>The < em> tag is used to emphasize text, typically displayed in italics. <br>
+                The < strong> tag is used to highlight strong importance, typically displayed in bold. <br>
+                Example: <br>
+                < p>< em>This text is emphasized.< /em>< /p> <br>
+                < p>< strong>This text is strongly emphasized.< /strong>< /p></p> <br>
+                <h3>HTML Abbreviation (< abbr>)</h3> <br>
+                <p>The < abbr> tag is used to define an abbreviation or acronym. <br>
+                    It can include a "title" attribute that provides the full explanation of the abbreviation. <br>
+                    Example: <br>
+                    < p>< abbr title="World Health Organization">WHO< /abbr> is an important organization.< /p></p> <br>
+                    <h3>HTML Subscript (< sub>) and Superscript (< sup>)</h3> <br>
+                    <p>The < sub> tag is used to define subscript text (e.g., chemical formulas). <br>
+                        The < sup> tag is used to define superscript text (e.g., mathematical exponents). <br>
+                        Example: <br>
+                        < p>H< sub>2< /sub>O is the chemical formula for water.< /p> <br>
+                        < p>2< sup>3< /sup> equals 8 in mathematics.< /p></p> <br>
+                        <h3>HTML Code (< code>) and Keyboard Input (< kbd>)</h3> <br>
+                        <p>The < code> tag is used to define computer code or inline code snippets. <br>
+                            The < kbd> tag is used to define keyboard input. <br>
+                            Example: <br>
+                            < p>You can use the < code>&lt;code&gt;< /code> tag for inline code.< /p> <br>
+                            < p>Press < kbd>Ctrl< /kbd> + < kbd>C< /kbd> to copy text.< /p></p> <br>
+        </div>
+        <div>
+            <h2 id="sem">Semantic Tags in HTML:</h2> <br>
+            <p>Semantic HTML tags are used to give meaning to the structure of a web page. They convey the purpose or role
+                of the elements to both browsers and developers. Using semantic tags improves accessibility, search engine
+                optimization (SEO), and the overall structure of web content.<br>
+                1. < header>: <br>
+                    The < header> element represents a container for introductory content or a set of navigational links. <br>
+                    It typically contains the site logo, site title, and main navigation menu. <br>
+                    2. < nav>: <br>
+                    The < nav> element is used to define a section of navigation links. <br>
+                    It often contains links to various parts of the website, such as the main menu or navigation bar. <br>
+                    3. < main>: <br>
+                    The < main> element is used to define the main content area of a document. <br>
+                    It should be unique within the document and exclude content that is repeated, such as site headers or footers. <br>
+                    4. < article>: <br>
+                    The < article> element represents a self-contained composition within a document. <br>
+                    It can include articles, blog posts, comments, or any content that can be independently distributed or syndicated. <br>
+                    5. < section>: <br>
+                    The < section> element is used to group related content within a document. <br>
+                    It helps in organizing content and makes it more meaningful. <br>
+                    6. < aside>: <br>
+                    The < aside> element represents content that is tangentially related to the content around it. <br>
+                    It is typically used for sidebars, pull quotes, or advertisements. <br>
+                    7. < footer>: <br>
+                    The < footer> element represents a container for the footer of a section or the entire page. <br>
+                    It usually contains copyright information, contact details, or links to related documents. <br>
+                    8. < time>: <br>
+                    The < time> element is used to represent dates and times. <br>
+                    It can include a "datetime" attribute to provide machine-readable date and time information. <br>
+                    < a> (Anchor) Tag: <br>
+                    The < a> tag is used for creating hyperlinks to other web pages, resources, or email addresses. It is one of the
+                    fundamental elements for navigation on the web. <br>
+                    Example: <br>
+                    < a href="https://www.example.com">Visit Example Website< /a> <br>
+                    < a href="mailto:contact@example.com">Contact Us< /a> <br>
+                    The "href" attribute specifies the destination URL or email address.</p> 
+        </div>
+        <div>
+            <p>< img> (Image) Tag: <br>
+                The < img> tag is used to display images on a web page. Images can enhance content, provide visual context,
+                and improve user engagement. <br>
+                < img src="image.jpg" alt="A beautiful sunset"> <br>
+                The "src" attribute specifies the image file's source URL. <br>
+                The "alt" attribute provides alternative text that is displayed if the image cannot be loaded. It is also essential
+                for accessibility. <br> </p>
+               <h2 id="list"> Lists in HTML:</h2> 
+                <p>HTML provides three types of lists: ordered lists, unordered lists, and description lists. Lists are used to organize and structure content. <br>
+                <h3>1. Unordered Lists (< ul>):</h3> <br>
+                Unordered lists are used to create lists of items that do not have a specific order or sequence.
+Each item in an unordered list is represented by a bullet point. <br> <br>
+Example: <br>
+<pre>
+< ul>
+
+< li>Item 1< /li>
+
+< li>Item 2< /li>
+
+< li>Item 3< /li>
+
+< /ul> 
+</pre> <br>
+ <h3>2. Ordered Lists (< ol>):</h3> <br>
+ Ordered lists are used to create lists of items that have a specific order or sequence. <br>
+ Each item in an ordered list is represented by a number or another marker. <br>
+ Example: <br>
+ <pre> 
+ < ol>
+
+ < li>First item< /li>
+
+ < li>Second item< /li>
+
+ < li>Third item< /li>
+
+  < /ol>
+ </pre> <br>
+ <h3>3. Description Lists (< dl>):</h3> <br>
+ Description lists are used to define terms and their corresponding descriptions. <br>
+They consist of term (< dt>) and description (< dd>) pairs. <br>
+Example: <br>
+<pre>
+< dl>
+
+< dt>Term 1< /dt>
+
+< dd>Description of Term 1< /dd>
+
+< dt>Term 2< /dt>
+
+< dd>Description of Term 2< /dd>
+
+< /dl>
+    </p>
+        </div>
+        <div>
+            <h2 id="table">Tables in HTML:</h2> <br>
+            <p>HTML tables are used to display data in rows and columns. They are useful for presenting structured
+                information.</p>
+                <h3>Basic Table Structure:</h3> <br>
+                <p>A table is created using the < table> element. <br>
+                    Rows within the table are defined using < tr> elements. <br>
+                    Cells within rows are defined using < td> elements for regular data cells and < th> elements for header cells. <br>
+                    Example: <br>
+                    <pre>
+ < table>
+
+ < tr>
+
+ < th>Header 1< /th>
+ 
+ < th>Header 2< /th>
+ 
+ < /tr>
+
+ < tr>
+
+ < td>Data 1< /td>
+
+ < td>Data 2< /td>
+
+ < /tr>
+
+ < tr>
+
+ < td>Data 3< /td>
+
+ < td>Data 4< /td>
+
+ < /tr>
+
+ < /table>                   
+                    </pre>
+                </p>
+                <p>Attributes: <br>
+                    The "colspan" attribute is used to specify how many columns a cell should span horizontally. <br>
+                    The "rowspan" attribute is used to specify how many rows a cell should span vertically. <br>
+                    Example: <br>
+                <pre>
+                </pre></p>
+                  </div>
+                  <div>
+                    <pre>
+  < table>
+    
+  < tr>
+  
+  < th colspan="2">Header 1 and Header 2 Combined< /th>
+   
+  < /tr>
+                            
+  < tr>
+  
+  < td rowspan="2">Data 1< /td>
+  
+  < td>Data 2< /td>
+   
+  < /tr>
+    
+  < tr>
+   
+  < td>Data 3< /td>
+  
+  < /tr>
+  
+  < /table>
+     </pre> <br>
+     <h2 id="blin">Block vs. Inline Elements:</h2> <br>
+     <h3>Block Elements:</h3> <br>
+     <p>Block-level elements are used to create structural divisions or blocks in the content of a web page. <br>
+        They typically start on a new line and extend the full width of their parent container. <br>
+        Common block-level elements include < div>, < p>, < h1> to < h6>, < ul>, < ol>, < li>, < table>, < form>, and
+        more. <br>
+        Example: <br>
+        < div>This is a block-level element.< /div> <br>
+        < p>This is another block-level element.< /p> <br>
+        < h1>This is a heading, which is also a block-level element.< /h1> </p> <br>
+        <h3>Inline Elements:</h3> <br>       
+        <p>
+            Inline elements are used to style or wrap specific portions of text within a block-level element. <br>
+            They do not start on a new line and only occupy the space needed for their content. <br>
+            Common inline elements include < span>, < a>, < strong>, < em>, < abbr>, < img>, and more. <br>
+            Example: <br>
+            < p>This is a < em>portion of text< /em> within a paragraph.< /p> <br>
+            < span>This is an inline element.< /span> <br>
+        </p>
+      </div>
+      <div>
+        <h2 id="ca">Class and ID Attributes:</h2> <br>
+        <h3>Class Attribute:</h3>
+        <p>The class attribute is used to assign one or more class names to an HTML element.</p>
+        <p>Classes are typically used to apply CSS styles to one or more elements with the same class.</p>
+        <p>Multiple elements can share the same class.</p>
+        <p>Example: <br>
+            < p class="highlight">This is a highlighted paragraph.< /p> <br>
+            < p class="highlight">Another highlighted paragraph.< /p></p> <br>
+            <h3>ID Attribute:</h3> <br>
+            <p>The id attribute is used to assign a unique identifier to an HTML element within a document.</p>
+            <p>IDs must be unique within the entire HTML document, meaning no two elements should share the same ID.</p>
+            <p>IDs are often used for specific JavaScript interactions or unique CSS styling.</p>
+            <p>Example: <br>
+                < div id="header">This is the header section.< /div> <br>
+                < p id="intro">This is the introductory paragraph.< /p></p> <br>
+                <h3>Combining Classes and IDs:</h3> <br>
+                <p>It is common to combine classes and IDs to target specific elements with CSS or JavaScript.</p>
+                <p>An element can have both a class and an ID.</p>
+                <p>Example: <br>
+                    < div id="header" class="highlight">This is a highlighted header.< /div></p>
+      </div>
+      <div>
+        <h2 id="forms">HTML Forms:</h2> <br>
+        <p>HTML forms are used to collect user input and send it to a server for processing. They consist of various form
+            elements for text input, selection, and interaction.</p>
+            <h3>< form> Element:</h3> <br>
+            <p>The <form> element is used to create a form on a web page.</p>
+            <p>It acts as a container for form elements.</p>
+            <p>The "action" attribute specifies the URL to which the form data should be sent.</p>
+            <p>The "method" attribute defines the HTTP method (GET or POST) used to send the data.</p>
+            <p>Example: <br>
+                < form action="/submit" method="POST"> <br>
+                < !-- Form elements go here  -- > <br>
+                < /form></p> <br>
+                <h3>Text Input Fields (< input type="text">):</h3> <br>
+                <p>Text input fields are used for single-line text input. <br>
+                    The "type" attribute is set to "text." <br>
+                    The "name" attribute specifies the name of the input field. <br>
+                    Example: <br>
+                    < label for="username">Username:< /label> <br>
+                    < input type="text" id="username" name="username"></p> <br>
+                    <h3>Password Input Fields (< input type="password">):</h3> <br>
+                    <p>Password input fields are used for entering sensitive information, like passwords. <br>
+                        The "type" attribute is set to "password."</p> <br>
+                        <p>Example: <br>
+                            < label for="password">Password:< /label> <br>
+                            < input type="password" id="password" name="password"></p> <br>
+                            <h3>Radio Buttons (< input type="radio">):</h3> <br>
+                            <p>Radio buttons allow users to select a single option from a list. <br>
+                                Each radio button has a unique "name" attribute, but they share the same "name" to form a group. <br>
+                                The "value" attribute specifies the value sent when the radio button is selected. <br>
+                                Example: <br>
+                                < label for="male">Male< /label> <br>
+                                < input type="radio" id="male" name="gender" value="male"> <br>
+                                < label for="female">Female</label> <br>
+                                < input type="radio" id="female" name="gender" value="female"> </p> <br>
+                                    <h3>Checkboxes (< input type="checkbox">):</h3> <br>
+                                    <p>Checkboxes allow users to select one or more options from a list. <br>
+                                        Each checkbox is independent and can have its own "name" and "value" attributes. <br>
+                                        Example: <br>
+                                        < label for="subscribe">Subscribe to Newsletter:< /label> <br>
+                                        < input type="checkbox" id="subscribe" name="newsletter" value="yes"></p> <br>
+                                        <h3>Textarea (< textarea>):</h3> <br>
+                                        <p>Textareas are used for multi-line text input. <br>
+                                            They do not have a "type" attribute but can have "name" and "id" attributes. <br>
+                                            The content between the opening and closing < textarea> tags defines the default text. <br>
+                                            Example: <br>
+                                            < label for="comments">Comments:< /label> <br>
+                                            < textarea id="comments" name="comments" rows="4" cols="50">Enter your comments here...< /textarea></p> <br>
+                                            </div>
+                                            <div>
+                                            <h3>Dropdown Lists (< select> and < option>):</h3> <br>
+                                                <p>
+                                                    Dropdown lists are used to select one option from a list of options. <br></p>
+<p>The < select> element creates the dropdown list, and < option> elements define the options. <br> </p>
+<p>The "value" attribute specifies the value sent to the server when an option is selected. </p><br> 
+<p>Example: <br>
+< label for="country">Country:< /label> <br>
+< select id="country" name="country"> <br>
+< option value="usa">United States< /option> <br>
+< option value="canada">Canada< /option> <br>
+< option value="uk">United Kingdom< /option> <br>
+< /select> 
+ </p> <br>
+ <h3>File Upload (< input type="file">):</h3> <br>
+<p>File upload fields allow users to select and upload files. <br>
+    The "type" attribute is set to "file." <br>
+    The "name" attribute specifies the name for the uploaded file. <br>
+    Example: <br>
+    < label for="file">Upload a file:< /label> <br>
+    < input type="file" id="file" name="uploadfile"></p> <br>
+    <h3>Fieldset and Legend (< fieldset> and < legend>):</h3> <br>
+    <p>The < fieldset> element groups related form elements together and creates a visual border. <br>
+        The < legend> element provides a caption or title for the < fieldset>. br
+        They improve the organization and accessibility of the form. <br>
+        Example: <br>
+        < fieldset> <br>
+        < legend>Contact Information< /legend> <br>
+        < !-- Form elements go here --> <br>
+        < /fieldset></p> <br>
+</div>
+<div>
+    <h2 id="mis">Miscellaneous HTML Tags:</h2> <br>
+    <h3>1. < hr> (Horizontal Rule):</h3> <br>
+    <p>The < hr> tag is used to create a horizontal line or thematic break in the content. <br>
+        It is a self-closing tag and does not have any content. <br>
+        Example: <br>
+        < p>This is some content.< /p> <br>
+        < hr> <br>
+        < p>This is more content.< /p></p> <br>
+        <h3>2. < br> (Line Break):</h3> <br>
+        <p>The < br> tag is used to insert a line break within text or content. <br>
+            It is a self-closing tag and is typically used to force a new line. <br>
+            Example: <br>
+            < p>This is a line of text.< br>Here is a new line of text.< /p></p> <br>
+            <h3>3. < blockquote>:</h3> <br>
+            <p>The < blockquote> element is used to represent a block of quoted text from another source. <br>
+                It is often used in conjunction with the < cite> element to cite the source.</p> <br>
+                <p>Example: <br>
+                    < blockquote> <br>
+                    < p>This is a quoted text from another source.< /p> <br>
+                    < /blockquote> <br>
+                    < cite>Source Name< /cite></p> <br>
+                    <h3>4. < q> (Inline Quotation):</h3> <br>
+                    <p>The < q> tag is used to define a short inline quotation. <br>
+                        Browsers often add quotation marks around the content enclosed by < q>. <br>
+                        Example: <br>
+                        < p>This is an example of an < q>inline quotation< /q> within a paragraph.< /p></p> <br>
+                        <h3>5. < abbr> (Abbreviation):</h3> <br>
+                        <p>The < abbr> tag is used to define an abbreviation or acronym. <br>
+                            It can include a "title" attribute that provides the full explanation of the abbreviation. <br>
+                            Example: <br>
+                            < p>< abbr title="World Health Organization">WHO< /abbr> is an important organization.< /p></p> <br>
+                            <h3>6. < address>:</h3> <br>
+                            <p>The < address> element is used to define contact information for the author or owner of a document. <br>
+                                It can include postal addresses, phone numbers, email addresses, and more. <br>
+                                Example:</p> <br>
+                                <pre>
+                      < address>                            
+                             John Doe<br>  
+                             123 Main Street<br>                        
+                             City, State, ZIP<br>                            
+                             Email: john@example.com<br>                            
+                             Phone: (123) 456-7890 <br>                        
+                     < /address>
+                                </pre> <br>
+                                <h3>7. < mark> (Marked or Highlighted Text):</h3> <br>
+                                <p>
+                                    The < mark> tag is used to highlight or mark portions of text within content. <br>
+                                        It indicates that the highlighted text has special relevance or importance. <br>
+                                        Example: <br>
+                                        < p>This is an example of < mark>highlighted text< /mark> in a paragraph.< /p>
+                                </p> <br>
+                                <h3>8. < del> (Deleted Text):</h3> <br>
+                                <p>The < del> tag is used to represent text that has been deleted or removed from a document. <br>
+                                    It is often displayed with a strikethrough. <br>
+                                    
+                                    Example: <br>
+                                    < p>This is some < del>deleted< /del> text in a paragraph.< /p></p> <br>
+                                    <h3>9. < ins> (Inserted Text):</h3> <br>
+                                    <p>The < ins> tag is used to represent text that has been inserted or added to a document. <br>
+                                        It is often displayed with an underline. <br>
+                                        Example: <br>
+                                        < p>This is some < ins>inserted< /ins> text in a paragraph.< /p></p> <br>
+                                        <h3>10. < s> (Strikethrough):</h3> <br>
+                                        <p>The < s> tag is used to apply a strikethrough style to text, indicating that it is no longer accurate or relevant. <br>
+                                            Example: <br>
+                                            < p>This is some < s>strikethrough< /s> text in a paragraph.< /p></p> <br>
+</div>
+<div>
+    <h2 id="av">Audio and Video Support:</h2> <br>
+    <p>HTML5 introduced native support for audio and video. You can embed audio and video content like this:</p> <br>
+    <pre>
+        < audio controls> <br>
+            < source src="audio.mp3" type="audio/mpeg"> <br>
+            Your browser does not support the audio element. <br>
+            < /audio> <br>
+            < video controls width="400"> <br>
+            < source src="video.mp4" type="video/mp4"> <br>
+            Your browser does not support the video element. <br>
+            < /video> 
+    </pre> <br>
+           <h2 id="can"> Canvas:</h2> <br>
+           <p>
+            The < canvas> element allows for dynamic rendering of graphics and animations using JavaScript. Here's a
+                simple example: <br>
+                < canvas id="myCanvas" width="200" height="100">< /canvas> <br>
+                < script> </br>
+                var canvas = document.getElementById("myCanvas"); </br>
+                var ctx = canvas.getContext("2d"); <br>
+                ctx.fillStyle = "blue"; <br>
+                ctx.fillRect(0, 0, 200, 100); <br>
+                < /script>  <br>
+           </p> <br>
+          
+            <h2 id="res">Responsive Web Design: </h2> <br>
+<p>HTML5 supports responsive web design with media queries. Here's a basic media query example: </p>
+<pre>
+< style>
+@media (max-width: 600px) {
+body {
+background-color: lightblue;
+}
+}
+< /style>
+</pre>    
+</div>
+    </div>
+    </main>
+</body>
+</html>
