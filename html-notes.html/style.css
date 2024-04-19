@@ -8,40 +8,36 @@ body{
     margin: 0px;
     padding: 0px; 
     background-color: rgba(237, 245, 245, 0);
-    padding-left: 10px;
-    height: 50vh;
-   
+      
     
     
 }
 #maincon
 {
     padding-top:5px;
-    margin-right: 10px;
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
+    margin-top: 50px;
+    display:flex;
+  flex-direction: row;
+  position:static;
+  height: fit-content;
+  width: fit-content;
+  
  
     
 }
-header{
-    background-color: rgb(208, 135, 101);
-    height: 10vh;
-    width: 100vw;
-    position:fixed;
-    top: 0;
     
-}
+
 #main
 {
     height:100%;
-    width: 25vw;
+    width: 30vw;
     background-color:rgb(222, 232, 228);
-    border-top-right-radius: 2px solid black;
     position:fixed;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 1px;
+    margin-left: 40px;
+
     
    
 }
@@ -49,10 +45,10 @@ header{
     
 
     margin: auto;
-    margin-left:35%;
-    margin-top: 10px;
+    margin-left:37%;
+    margin-top: 5px;
 
-   
+
    
         
  
@@ -67,15 +63,14 @@ padding: 4px;
 }
 #side div{
    
-    height:100%;
-    width: 66vw;
+    height:fit-content;
+    width:fit-content;
     border: 1px solid black;
     background-color: rgba(230, 242, 245, 0.018);
     padding: 20px;
     padding-top: 20px;
    margin-bottom:20%;
-   display: flex;
-  flex-direction: column;
+   
 
        
     
@@ -118,22 +113,21 @@ justify-content: center;
 margin: auto;
 margin-left:50px;
 height: 100%;
-width: 100vw;
+width: 50vw;
     }
     #main{
     height: 200%;
-    width: 140vw;
-    margin-top:1px;
-    display: flex;
-    flex-direction: column;
+    width: 200%;   
     position:static;
         }
 
 #side div {
     height:100%;
-    width: 90vw;
-margin:2px;
+    width: 30vw;
+margin:1px;
 margin-left: 1px;
+display:flex;
+flex-direction: column;
     
 }
 h1{
@@ -143,7 +137,11 @@ position:static
 }
 @media (max-width:360){
     #maincon{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: (auto);
+    }
+    #main{
+        width: fit-content;
+        height: fit-content;
     }
 }
