@@ -1,0 +1,64 @@
+body{
+    background-color:whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.eveodd {
+    margin: auto;
+    border: 2px solid black;
+    height: 90vh;
+    width:90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(120, 205, 229);
+    border-radius: 10px;
+}
+#eveodd {
+    float: inline-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
+}
+.counter{
+    height:55vh;
+    width:25vw;
+    background-color:rgb(239, 204, 239);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    border-radius:5%;
+    border: 2px solid rgb(55, 2, 2);
+    box-shadow:15px 15px 15px black;
+    margin-bottom: 10px;
+}
+.counter p{
+    font-size: 50px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(18, 34, 2);
+    color: white;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 600;
+}
+hr{
+    width: 20vw;
+    background-color: rgb(56, 57, 59) ;
+    
+    margin-bottom: 35px;
+    padding: 5px;
+}
+button:hover{
+    background-color:rgba(9, 22, 61, 0.429);
+    color:white;
+}

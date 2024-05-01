@@ -1,0 +1,89 @@
+Javascript is called the language of web . it is the
+programming language for web developer.
+Js is called for functioninng of the website.
+Js is actually maintained by ECMA script. we are currently in Es13
+but popular is Es6.Js files uses extention .Js
+You can add internal Javascript or external javascript.
+For Internal Js==>you can write Js inside script tag .
+
+<script>
+//internal will mention at the end of html body
+</script>
+
+Java and JS are not related to eachother.
+In 1994==>Javascript was started by the name of Livescript.
+and later changed into Javascript because at that time Java is popular.
+ 
+ For External Js==> //external
+ <script src="./file></script>==>link other file
+
+1.How to write comments in JS?
+There are two types of comments in JS.
+==> single line =>// comments
+==>multi line =>/* comment*/
+Comments are used for better understandability ,readability and gives better structure
+
+2.What are essential to know for a programming language?
+1.variable
+2.data types
+3.operators
+4.controls
+5.loops
+
+3. what is a variable? how to declare one?
+a: Variables are used to store the data. In Javascript ,there are three ways to declare a variable.
+variable is change if we change the property.
+there are 3 way to declare a variables:
+
+1. var variable-name;
+    var a = 20
+    console.log("the value of a is'+a)==>here +a gives the value of a in number format if we didn't mention +before a it gives in the form of string.
+2. let variable-name;
+3. const variable-name;
+ex:1+1=2
+    1+'2'='12'
+    5-'4'=1
+    5+'4'='54'
+    5+ +'4'=9
+    1+True =2
+    now declare variable:
+    var a = 20
+    a-> 20
+    typeof(a) --> 'number'
+
+    a ="raj"
+    -->'raj'
+    a-->'raj'
+    typeof(a) --> 'string'
+
+4. what are the basic window methods?
+  there are 3 basic window methods.
+  1.alter() --> used to print some info as an alert.
+     -> alert("the value of a is"+a)
+
+  2.propmt() --> used to get input for user.
+    -> var a = propmt("enter a value "+a)
+  
+  3.confirm() --> used to give confirmation
+    --> confirm("Are u sure")
+
+5.What are different data types in Js?
+  Data types defines what type the data belongs.
+  there are primirily two data types:
+  1. primitive data type :
+    ---> Primitive data type are used to define any data. they are:
+    number, string, boolean, null, undefined
+
+  2. Non-primitive data type :
+    ---> they use primitive data type. these are also called reference data types
+    arrays, objects, functions.
+
+ Basically JS used duck typing or dynamic data typing means you can't fix one
+ data type for one variable.
+  To know the dATA TYPE of a variable, you can use operator "typeof()"
+
+6. Explain 'number' data type.
+a: Any numerical values in JS , it automatically assigns number data type.
+   Even decimal are also considered as number data type.
+   There are some pre-defined methods for numbers.
+   1.
