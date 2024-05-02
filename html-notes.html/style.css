@@ -8,7 +8,7 @@ body{
     margin: 0px;
     padding: 0px; 
     background-color: rgba(237, 245, 245, 0);
-      
+    
     
     
 }
@@ -36,15 +36,16 @@ body{
     margin-top: 1px;
     margin-left: 10px;
     position: fixed;
+    scroll-behavior: smooth;
        
 }
 #side{
   width:63vw;
   height: 100vh;
     margin-top: 2px;
-margin-right: 5px;
 margin-left: 42%;
 justify-content: left;
+scroll-behavior: smooth;
 }      
      
 h1{
@@ -58,13 +59,13 @@ position: static;
 #side div{
    
     height:fit-content;
-    width:fit-content;
     border: 1px solid black;
     background-color: rgba(230, 242, 245, 0.018);
-    padding: 20px;
+    padding: 50px;
     padding-top: 20px;
-   margin-bottom:10%;      
-   margin: auto;
+   margin-bottom:4%;   
+      
+   
 
     
   
@@ -95,23 +96,39 @@ pre{
 @media (max-width:412)
  {
  
-    #maincon{
-        margin: 5px;
-     height: 100%;
-     width: 200%;
-     margin: auto;
-    }
     #main{
-    height:100%;
-    width:100%;   
-    position:static;
+        
+        height:100%;
+        width: 30vw;
+        background-color:rgb(222, 232, 228);
+        text-align: center;
+        padding: 10px;
+        margin-top: 1px;
+        margin-left: 30px;
+        position: fixed;
+        scroll-behavior: smooth;
+           
+    }
+    #maincon{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top:5px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns:auto auto;
+      height:100%;
+      width:100vw;
+    
         }
 
 #side div {
-    height:100%;
-    width: 200%;
-    margin-left: 35%;
-    justify-content: end;
+    width:63vw;
+    height: 100vh;
+      margin-top: 2px;
+  margin-left: 50vw;
+  justify-content: left;
+  scroll-behavior: smooth
 }
 h1{
 position:static
@@ -120,27 +137,39 @@ position:static
 }
 @media (max-width:360){
     #maincon{
-        margin: 1px;
-        width:200%;
-        display:grid;
-        grid-template-columns: auto auto;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top:5px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns:auto auto;
+      height:100%;
+      width:100vw;
 
     }
     #main{
         height:200%;
-        width:100%;   
+        width:50vw;   
         position:static;
         margin-right: 5px;
             }
     #side{
         margin-left: 50px;
         justify-content: end;
+        align-items: end;
+        height: fit-content;
+        will-change: 200vw;
+        width: 100vw;
     }
     #side div {
-        height:100vh;
-        width: 100vw;
-        margin-left: 45%;
-
+        width:63vw;
+        height: 100vh;
+          margin-top: 2px;
+      margin-left: 50vw;
+      justify-content: left;
+      scroll-behavior: smooth
+    
     }
     h1{
     position:static
