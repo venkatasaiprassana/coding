@@ -1,0 +1,10 @@
+.input{
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    background-color: aquamarine;
+    align-items: center;
+    margin: auto;
+    border: 2px solid blueviolet;
+    justify-content: space-between;
+}

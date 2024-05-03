@@ -11,19 +11,18 @@ function change(){
 
   const selectedcolor=colorselect.value;
   document.body.style.backgroundColor= selectedcolor;
-  
 
 }
 function changemode()
 {
   document.body.classList.toggle('dark')
    
-  if(btntext.textContent == "🌙")
+  if(btntext.textContent == "light")
   {
-    btn.textContent= "⛅";
+    btn.textContent= "dark";
   }
   else{
-    btn.textcontent= "🌙"
+    btn.textcontent= "light"
   }
 
 }
