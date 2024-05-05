@@ -1,10 +1,60 @@
-.input{
-    height: fit-content;
-    width: fit-content;
+#input{
+    height: 10vh;
+    width: 80vw;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: rgb(17, 55, 42);
     align-items: center;
     margin: auto;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(37, 18, 54);
     justify-content: space-between;
+}
+.body{
+    height: 98vh;
+    width: 80vw;
+    border: 5px solid rgb(8, 32, 140);
+    margin: auto;
+    background-color: rgb(242, 242, 193);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ZxkH76bCGk6rxF78jl8pbS2UGZU33Z1JTPyU_Zkyi0GMHIwnLYeV8oGR8yT0mxvcoUI&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    
+    width: 60vh;
+    height: 70vh;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid rgb(100, 5, 64);
+    margin-top: 40px;
+border-radius: 5%;
+box-shadow: 5px 2px 3px;
+background-color: aliceblue;
+transition:all 2s ease;
+
+#main:hover{
+    transform: (1.05);
+    box-shadow: 5px 2px 3px blue;
+}
+
+
+}
+.card{
+    box-shadow: 5px 3px black;
+    background-color: darkblue;
+    height: 100vh;
+    width: 100vw;
+}
+#input input{
+    height: 5vh;
+    width: 13vw;
+    margin-top:14px ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    background-color: rgb(237, 244, 227);
+}
+button{
+    width: 6vw;
+    height:6vh;
+    background-color: rgb(232, 246, 233);
 }

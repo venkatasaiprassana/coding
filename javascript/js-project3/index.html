@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="input">
+    <div class="body">
+    <div id="input">
         <input type="text" name="" id="imginp" placeholder="Enter url image ">
-        <input type="text" name="" id="ft" placeholder="Enter first text">
+        <input type="text" name="" id="ft" placeholder="Enter first text" onchange="onChangeHandler(this.value)">
         <input type="text" name="" id="st" placeholder="Enter Second text">
         <input type="text" name="" id="fp" placeholder="Enter first text position">
         <input type="text" name="" id="sp" placeholder="Enter Second text position">
@@ -19,7 +20,11 @@
     </div>
     <div id="main">
 
+</div>
+
+
     </div>
+    
     <script src="./script.js"></script>
 </body>
 </html>
