@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+#food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    background-color:rgb(247, 224, 240);
+    margin-top: 85px;
+    
+}
+header{
+    background-color: rgb(2, 41, 36);
+    color: whitesmoke;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 30px;
+    margin-bottom: 10px;
+    top:0;
+}
+.class{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 2px 2px black;
+padding: 2px;
+transition: all 2s ease;
+border-radius: 10px;
+background-color: rgb(237, 243, 248);
+height: 60vh;
+width: 30vw;
+margin: 5px;
+
+}
+.class button{
+    justify-content: space-between;
+    border: 2px solid #7b0303d0;
+margin:10px;
+height: 5vh;
+margin-top: 35px;
+border-radius: 20%;
+}
+.class:hover{
+    transform: scale(1.05);
+    box-shadow:3px 5px 2px rgb(3, 99, 112) ;
+}
+h1{
+  
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(214, 225, 140);
+}
+p{
+    font-size: larger;
+}
+.indiv{
+    display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  
+}
+.modal{
+    position: fixed;
+    top:40vh;
+    left:40vw;
+    z-index:2;
+    background-color: rgb(64, 76, 100);
+    padding:50px;
+    color: aliceblue;
+transition: all 2s ease;
+}
+.hidden{
+    display: none;
+}
