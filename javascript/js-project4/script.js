@@ -83,7 +83,7 @@ function displaydata(){
 
            const btn2=document.createElement('button')
             btn2.textContent="open"
-            btn2,addEventListener('click',openmodel)
+            btn2.addEventListener('click',openModal)
 
            const indiv = document.createElement("div")
            indiv.classList.add("indiv");
@@ -96,44 +96,47 @@ function displaydata(){
         }
     )
 }
+
 displaydata()
 const count=document.getElementById('count');
 let c = 0;
 
-  function incr ()
+function incr ()
 { 
     c++;
     document.getElementById("count").textContent=c;
-  if(c>=0){
+   
+    if(c>=0)
+    {
     count.textContent=c;
-
-  }
+ 
+}
   else{
     count.textContent=0;
-  }
-   
+ 
 }
+
+}
+
 function decr()
 { if (c>0)
     {
-        c--;
-        count.textContent=c;
-        
-    
-    }
-        else{
-            alert("No items selected")
-        }
+      c--;
+      count.textContent=c;
+      }
+      else{
+         alert("No items selected")
+     }
 }
 
-function openmodel(){
-document.getElementsByClassName("modal")[0].classList.remove("hidden")
-}
 
-document.getElementById('cl').addEventListener('click',closemodal)
-
-function closemodal()
+function openModal()
 {
-   document.getElementsByClassName("modal")[0].classList.add("hidden")
-
+      document.getElementsByClassName('modal')[0].classList.remove('hidden')
+    
+}   
+      document.getElementById('cl').addEventListener('click',closemodal)
+function closemodal(){   
+    
+    document.getElementsByClassName('modal')[0].classList.add('hidden')
 }
