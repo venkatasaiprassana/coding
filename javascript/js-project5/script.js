@@ -261,6 +261,7 @@ const movies=[ {
   }
 ]
 const maindiv=document.getElementById('main')
+
 function displaydata(){
     movies.forEach(
         function(m){
@@ -310,13 +311,14 @@ function incr ()
 }
 }
  
-function openModal()
+function openModal(receipe)
 {
       document.getElementsByClassName('modal')[0].classList.remove('hidden')
-    
+    receipe.textContent=receipe.ingredients;
 }   
       document.getElementById('cl').addEventListener('click',closemodal)
 function closemodal(){   
     
     document.getElementsByClassName('modal')[0].classList.add('hidden')
+    
 }
